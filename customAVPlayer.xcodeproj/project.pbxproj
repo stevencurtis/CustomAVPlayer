@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA01614A1EE8F0E50024A674 /* Fly - 8262.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA0161491EE8F0E50024A674 /* Fly - 8262.mp4 */; };
+		CA4CF8531EE397DD00294704 /* AVContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4CF8521EE397DD00294704 /* AVContainerViewController.swift */; };
 		CAAA48571EE27C1B0057891F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA48561EE27C1B0057891F /* AppDelegate.swift */; };
-		CAAA48591EE27C1B0057891F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA48581EE27C1B0057891F /* ViewController.swift */; };
 		CAAA485C1EE27C1B0057891F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAA485A1EE27C1B0057891F /* Main.storyboard */; };
 		CAAA485E1EE27C1B0057891F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAA485D1EE27C1B0057891F /* Assets.xcassets */; };
 		CAAA48611EE27C1B0057891F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAA485F1EE27C1B0057891F /* LaunchScreen.storyboard */; };
 		CAAA486C1EE27C1B0057891F /* customAVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA486B1EE27C1B0057891F /* customAVPlayerTests.swift */; };
+		CAC7A19C1EE4FDB80066DD37 /* PassThroughUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC7A19B1EE4FDB80066DD37 /* PassThroughUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0161491EE8F0E50024A674 /* Fly - 8262.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fly - 8262.mp4"; path = "../../../../Downloads/Fly - 8262.mp4"; sourceTree = "<group>"; };
+		CA4CF8521EE397DD00294704 /* AVContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVContainerViewController.swift; sourceTree = "<group>"; };
 		CAAA48531EE27C1B0057891F /* customAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAA48561EE27C1B0057891F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAAA48581EE27C1B0057891F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAAA485B1EE27C1B0057891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAAA485D1EE27C1B0057891F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAAA48601EE27C1B0057891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		CAAA48671EE27C1B0057891F /* customAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAA486B1EE27C1B0057891F /* customAVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customAVPlayerTests.swift; sourceTree = "<group>"; };
 		CAAA486D1EE27C1B0057891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC7A19B1EE4FDB80066DD37 /* PassThroughUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassThroughUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		CAAA484A1EE27C1B0057891F = {
 			isa = PBXGroup;
 			children = (
+				CA0161491EE8F0E50024A674 /* Fly - 8262.mp4 */,
 				CAAA48551EE27C1B0057891F /* customAVPlayer */,
 				CAAA486A1EE27C1B0057891F /* customAVPlayerTests */,
 				CAAA48541EE27C1B0057891F /* Products */,
@@ -78,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				CAAA48561EE27C1B0057891F /* AppDelegate.swift */,
-				CAAA48581EE27C1B0057891F /* ViewController.swift */,
 				CAAA485A1EE27C1B0057891F /* Main.storyboard */,
+				CAC7A19B1EE4FDB80066DD37 /* PassThroughUIView.swift */,
+				CA4CF8521EE397DD00294704 /* AVContainerViewController.swift */,
 				CAAA485D1EE27C1B0057891F /* Assets.xcassets */,
 				CAAA485F1EE27C1B0057891F /* LaunchScreen.storyboard */,
 				CAAA48621EE27C1B0057891F /* Info.plist */,
@@ -181,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA01614A1EE8F0E50024A674 /* Fly - 8262.mp4 in Resources */,
 				CAAA48611EE27C1B0057891F /* LaunchScreen.storyboard in Resources */,
 				CAAA485E1EE27C1B0057891F /* Assets.xcassets in Resources */,
 				CAAA485C1EE27C1B0057891F /* Main.storyboard in Resources */,
@@ -201,8 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAA48591EE27C1B0057891F /* ViewController.swift in Sources */,
 				CAAA48571EE27C1B0057891F /* AppDelegate.swift in Sources */,
+				CAC7A19C1EE4FDB80066DD37 /* PassThroughUIView.swift in Sources */,
+				CA4CF8531EE397DD00294704 /* AVContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 				CAAA48721EE27C1B0057891F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAAA48731EE27C1B0057891F /* Build configuration list for PBXNativeTarget "customAVPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				CAAA48751EE27C1B0057891F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

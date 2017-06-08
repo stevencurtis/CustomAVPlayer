@@ -9,13 +9,23 @@
 import UIKit
 
 class PassThroughUIView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+    var timer: Timer?
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        for view in subviews {
+            if !view.isHidden && view.point(inside: self.convert(point, to: view), with: event) {
+                view.isHidden = false
+                timer?.invalidate()
+                self.timer = Timer.scheduledTimer(withTimeInterval: 4.0, repeats: false) { (timer) in
+                    for view in self.subviews {
+                        view.isHidden = true
+                    }
+                }
+                return true
+            }
+        }
+        for view in subviews {
+            view.isHidden = false
+        }
+        return false
+    }    
 }
